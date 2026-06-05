@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHub</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="top-header py-2 bg-dark text-white">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 small">
+      <div class="d-flex flex-wrap align-items-center gap-3">
+        <span><i class="fa-solid fa-envelope me-2"></i>hello@studenthub.com</span>
+        <span><i class="fa-solid fa-phone me-2"></i>+91 90000 00000</span>
+      </div>
+      <div class="social-links d-flex gap-3">
+        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <header class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">StudentHub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cta">CTA</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="body-container">
+    <section id="home" class="hero-section d-flex align-items-center">
+      <div class="hero-overlay"></div>
+      <div class="container text-center text-white position-relative">
+        <span class="eyebrow text-uppercase letter-spacing-2 mb-3 d-inline-block" data-aos="fade-down">Welcome to StudentHub</span>
+        <h1 class="display-5 fw-bold mb-4" data-aos="fade-up">A modern space built for students to learn, connect, and grow.</h1>
+        <p class="lead text-white-75 mb-4 mx-auto" style="max-width:680px;" data-aos="fade-up" data-aos-delay="100">
+          Learn with guided lessons, get support from mentors, and stay organized with study tools — all in one place.
+          </p>
+        <div class="d-flex justify-content-center gap-3 flex-wrap" data-aos="fade-up" data-aos-delay="200">
+          <a href="#about" class="btn btn-primary btn-lg">Discover More</a>
+          <a href="#services" class="btn btn-outline-light btn-lg">View Services</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-6">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <span class="eyebrow text-primary text-uppercase mb-3 d-inline-block">About StudentHub</span>
+            <h2 class="fw-bold mb-4">Everything is clear, modern and built for students.</h2>
+            <p class="text-muted mb-4">
+              StudentHub brings structure, guidance, and support into your study journey. Every section is designed to feel simple, helpful, and easy to use.
+            </p>
+            <ul class="list-unstyled text-muted mb-4">
+              <li class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2"></i>Responsive design that looks great on phone, tablet, or laptop</li>
+              <li class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2"></i>Fresh style with clean text, balanced spacing, and soft shadows</li>
+              <li class="mb-3"><i class="fa-solid fa-circle-check text-primary me-2"></i>Fast experience with smooth pages and quick loading</li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-lg">Get Started</a>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="about-image rounded-4 overflow-hidden shadow-lg">
+              <img src="images/about.jpg"
+                alt="Students collaborating" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-6 bg-light">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="eyebrow text-primary text-uppercase mb-2 d-inline-block">Our Services</span>
+          <h2 class="fw-bold">Three core blocks that keep student life moving.</h2>
+          <p class="text-muted mx-auto" style="max-width:700px;">
+            Each one is a focused step to help with learning, support, and progress.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card service-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="icon-box mb-4"><i class="fa-solid fa-laptop-code"></i></div>
+                <h5 class="fw-bold mb-3">Skill-building Courses</h5>
+                <p class="text-muted">Step-by-step lessons that make learning faster and more practical.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card service-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="icon-box mb-4"><i class="fa-solid fa-graduation-cap"></i></div>
+                <h5 class="fw-bold mb-3">Mentorship</h5>
+                <p class="text-muted">Personal advice, study plans, and career tips to guide your journey.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card service-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="icon-box mb-4"><i class="fa-solid fa-chart-line"></i></div>
+                <h5 class="fw-bold mb-3">Progress Resources</h5>
+                <p class="text-muted">Notes, tutorials, and community tools to keep your studies organized.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="cta-section position-relative text-white overflow-hidden">
+      <div class="cta-overlay"></div>
+      <div class="container py-6 position-relative">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center" data-aos="fade-up">
+            <span class="eyebrow text-uppercase text-warning mb-3 d-inline-block">Join the next generation</span>
+            <h2 class="fw-bold mb-4">StudentHub is a modern platform that gives students a clear path to better outcomes.</h2>
+            <p class="lead text-white-75 mb-4">Everything is designed with clarity in mind - clean layouts, responsive design, smooth animations, and a strong visual flow.</p>
+            <a href="#contact" class="btn btn-warning btn-lg">Start Free Today</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-6 bg-white">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <span class="eyebrow text-primary text-uppercase mb-2 d-inline-block">Questions & Answers</span>
+          <h2 class="fw-bold">Quick answers about StudentHub</h2>
+          <p class="text-muted mx-auto" style="max-width:700px;">These FAQs explain who StudentHub is for, how it helps students, and how to get in touch.</p>
+        </div>
+
+        <div class="accordion" id="faqAccordion" data-aos="fade-up" data-aos-delay="100">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeadingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+                What is StudentHub?
+              </button>
+            </h2>
+            <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted">
+                StudentHub is a modern student platform that brings learning resources, mentorship, and career support together in one polished, easy-to-use experience.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeadingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+                Who should use it?
+              </button>
+            </h2>
+            <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted">
+                StudentHub is for students who want simple tools, guidance, and resources to stay organized and grow.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeadingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+                How do I get started?
+              </button>
+            </h2>
+            <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted">
+                Start by exploring the services and then use the contact form to ask about courses, mentorship, or support. This page gives you a clear, student‑friendly layout that makes it easy to begin your journey with StudentHub.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="faqHeadingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
+                How can I contact StudentHub?
+              </button>
+            </h2>
+            <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#faqAccordion">
+              <div class="accordion-body text-muted">
+                Use the contact form below or email hello@studenthub.com. 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="text-center mb-4" data-aos="fade-up">
+          <span class="eyebrow text-primary text-uppercase mb-2 d-inline-block">Get in touch</span>
+          <h2 class="fw-bold">Contact & Location</h2>
+          <p class="text-muted mx-auto" style="max-width:680px;">Send a message to our team or find us on the map. This section is structured for clear student outreach and easy contact.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="card border-0 shadow-sm p-4 mb-3">
+              <h4 class="fw-bold mb-3">Need help right away?</h4>
+              <p class="text-muted mb-3">Our team is ready to answer questions about courses, mentorship, and student support.</p>
+              <p class="mb-2"><strong>Email:</strong> hello@studenthub.com</p>
+              <p class="mb-0"><strong>Phone:</strong> +91 90000 00000</p>
+            </div>
+            <div class="card border-0 shadow-sm p-4">
+              <h3 class="fw-bold mb-4 text-center">Contact form</h3>
+              <form id="contactForm" novalidate>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Your name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="How can we help?" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="map-frame rounded-4 overflow-hidden shadow-sm h-100">
+              <iframe
+                src="https://maps.google.com/maps?q=Sasi%20Institute%20of%20Technology%20and%20Engineering%20Tadepalligudem&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="100%" height="100%" style="border:0; min-height:420px;" allowfullscreen="" loading="lazy">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+  <footer class="footer bg-dark text-white py-5">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-4">
+          <h5 class="fw-bold">StudentHub</h5>
+          <p class="text-white-50">A modern space built for students to learn, connect, and grow.</p>
+        </div>
+        <div class="col-md-2">
+          <h6 class="fw-bold mb-3">Explore</h6>
+          <ul class="list-unstyled footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-bold mb-3">Contact</h6>
+          <p class="text-white-50 mb-1"><i class="fa-solid fa-envelope me-2"></i>hello@studenthub.com</p>
+          <p class="text-white-50"><i class="fa-solid fa-phone me-2"></i>+91 90000 00000</p>
+        </div>
+        <div class="col-md-3">
+          <h6 class="fw-bold mb-3">Follow</h6>
+          <div class="d-flex gap-3 social-links-footer">
+            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center text-muted mt-4">© 2026 StudentHub. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="javascript/script.js"></script>
+</body>
+</html>
